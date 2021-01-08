@@ -24,8 +24,11 @@ This project contains three apps:
 This is a *NOT* a speed competition. The objective is to show that the following activities have been accomplished:
 
 * The two microservices `accounts (2222)` and `web` are running and registered (two terminals, logs screenshots).
+  
 * The service registration service has these two microservices registered (a third terminal, dashboard screenshots)
+  
 * A second `accounts` microservice instance is started and will use the port 4444. This second `accounts (4444)` is also registered (a fourth terminal, log screenshots).
+  
 * What happens when you kill the microservice `accounts (2222)` and do requests to `web`?  
   Can the web service provide information about the accounts again? Why?
 
